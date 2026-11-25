@@ -1,0 +1,65 @@
+FILE=HomogeneousCuts_v04.lean
+SHA256=27076837E1247BD1B7F789D95D2A65FEED2565AAEA1A1AF32AE78B4C223D8C73
+THEOREMS=51
+PLACEHOLDER_OR_AXIOM_WORDS=0
+EXIT_CODE=0
+D:\TheoryScienceResearch\01_Epidemic_CRN\HomogeneousCuts_v04.lean:118:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+D:\TheoryScienceResearch\01_Epidemic_CRN\HomogeneousCuts_v04.lean:150:36: warning: unused variable `ha`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+D:\TheoryScienceResearch\01_Epidemic_CRN\HomogeneousCuts_v04.lean:150:47: warning: unused variable `haN`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'FixedPopulation.Cuts.pre_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.Cuts.cb_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.Cuts.cb_rate_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+D:\TheoryScienceResearch\01_Epidemic_CRN\HomogeneousCuts_v04.lean:236:26: warning: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+D:\TheoryScienceResearch\01_Epidemic_CRN\HomogeneousCuts_v04.lean:236:26: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+D:\TheoryScienceResearch\01_Epidemic_CRN\HomogeneousCuts_v04.lean:280:17: warning: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+D:\TheoryScienceResearch\01_Epidemic_CRN\HomogeneousCuts_v04.lean:294:17: warning: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+D:\TheoryScienceResearch\01_Epidemic_CRN\HomogeneousCuts_v04.lean:280:17: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+D:\TheoryScienceResearch\01_Epidemic_CRN\HomogeneousCuts_v04.lean:294:17: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+D:\TheoryScienceResearch\01_Epidemic_CRN\HomogeneousCuts_v04.lean:305:22: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'FixedPopulation.Cuts.chain_field' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.Cuts.fixed_degree_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.Cuts.factor_elevate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.Cuts.mixed_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+D:\TheoryScienceResearch\01_Epidemic_CRN\HomogeneousCuts_v04.lean:532:6: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'FixedPopulation.Cuts.basis_coeff_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.Cuts.quad_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.Cuts.quad_factor_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+D:\TheoryScienceResearch\01_Epidemic_CRN\HomogeneousCuts_v04.lean:717:8: warning: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+D:\TheoryScienceResearch\01_Epidemic_CRN\HomogeneousCuts_v04.lean:717:8: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+'FixedPopulation.Cuts.cubic_even_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.Cuts.cubic_odd_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.Cuts.cubic_no_degree_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.Cuts.cubic_unbounded_degree_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.Cuts.global_homogeneous_extract' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.Cuts.cubic_global_fixed_separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.Cuts.mixed_cb_db_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.Cuts.cubic_no_degree_two_general' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.Cuts.cubic_no_small_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.Cuts.cubic_finite_db' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.Cuts.cubic_global_fixed_separation_general' depends on axioms: [propext, Classical.choice, Quot.sound]

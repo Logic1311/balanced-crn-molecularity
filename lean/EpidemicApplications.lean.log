@@ -1,0 +1,77 @@
+FILE=EpidemicApplications.lean
+SHA256=367FF1785C895DA459F30A4265B4DE17E5D75CB9E81E1E8DAF99CB8869D9A027
+THEOREMS=39
+PLACEHOLDER_OR_AXIOM_WORDS=0
+EXIT_CODE=0
+D:\TheoryScienceResearch\01_Epidemic_CRN\EpidemicApplications.lean:17:0: warning: automatically included section variable(s) unused in theorem `FixedPopulation.path_closed`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+D:\TheoryScienceResearch\01_Epidemic_CRN\EpidemicApplications.lean:27:0: warning: automatically included section variable(s) unused in theorem `FixedPopulation.active_mem`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+D:\TheoryScienceResearch\01_Epidemic_CRN\EpidemicApplications.lean:64:0: warning: automatically included section variable(s) unused in theorem `FixedPopulation.exists_low`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+D:\TheoryScienceResearch\01_Epidemic_CRN\EpidemicApplications.lean:70:0: warning: automatically included section variable(s) unused in theorem `FixedPopulation.exists_high`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+D:\TheoryScienceResearch\01_Epidemic_CRN\EpidemicApplications.lean:83:0: warning: automatically included section variable(s) unused in theorem `FixedPopulation.drift_active`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'FixedPopulation.min_edge_rises' depends on axioms: [propext, Quot.sound]
+'FixedPopulation.max_edge_falls' depends on axioms: [propext, Quot.sound]
+'FixedPopulation.boundary_repulsion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.infinity_attraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.global_no_go' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.boundary_no_go' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.sis_pair_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.interior_rates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.db_term_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.projection_ray' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.massAction_boundary_no_go' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.massAction_global_no_go' depends on axioms: [propext, Classical.choice, Quot.sound]
+D:\TheoryScienceResearch\01_Epidemic_CRN\EpidemicApplications.lean:504:63: warning: This simp argument is unused:
+  a
+
+Hint: Omit it from the simp argument list.
+  simp [̵r̵a̵y̵,̵J̵,̵a̵,̵b̵]̵[̲r̲a̲y̲,̲ ̲J̲,̲ ̲b̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+D:\TheoryScienceResearch\01_Epidemic_CRN\EpidemicApplications.lean:501:53: warning: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+D:\TheoryScienceResearch\01_Epidemic_CRN\EpidemicApplications.lean:501:53: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+D:\TheoryScienceResearch\01_Epidemic_CRN\EpidemicApplications.lean:599:30: warning: This simp argument is unused:
+  h1
+
+Hint: Omit it from the simp argument list.
+  simp [field, ̲sisEdges, ̲sisK, ̲h1̵,̵h̵2, ̲monomial, ̲Fin.prod_univ_two, ̲sisSource, ̲sisTarget]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+D:\TheoryScienceResearch\01_Epidemic_CRN\EpidemicApplications.lean:599:33: warning: This simp argument is unused:
+  h2
+
+Hint: Omit it from the simp argument list.
+  simp [field, ̲sisEdges, ̲sisK, ̲h1,h̵2̵,̵ ̲monomial, ̲Fin.prod_univ_two, ̲sisSource, ̲sisTarget]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'FixedPopulation.sis_global_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.sir_sirs_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.sis_threshold_exact' depends on axioms: [propext, Classical.choice, Quot.sound]

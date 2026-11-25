@@ -1,0 +1,47 @@
+FILE=FixedPopulation.lean
+SHA256=5A62F6892C99B9B0F9FA6F770EF26AC8896AB2BE178157DA64E08E4848A7CC04
+THEOREMS=31
+PLACEHOLDER_OR_AXIOM_WORDS=0
+EXIT_CODE=0
+D:\TheoryScienceResearch\01_Epidemic_CRN\FixedPopulation.lean:17:0: warning: automatically included section variable(s) unused in theorem `FixedPopulation.path_closed`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+D:\TheoryScienceResearch\01_Epidemic_CRN\FixedPopulation.lean:27:0: warning: automatically included section variable(s) unused in theorem `FixedPopulation.active_mem`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+D:\TheoryScienceResearch\01_Epidemic_CRN\FixedPopulation.lean:64:0: warning: automatically included section variable(s) unused in theorem `FixedPopulation.exists_low`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+D:\TheoryScienceResearch\01_Epidemic_CRN\FixedPopulation.lean:70:0: warning: automatically included section variable(s) unused in theorem `FixedPopulation.exists_high`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+D:\TheoryScienceResearch\01_Epidemic_CRN\FixedPopulation.lean:83:0: warning: automatically included section variable(s) unused in theorem `FixedPopulation.drift_active`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'FixedPopulation.min_edge_rises' depends on axioms: [propext, Quot.sound]
+'FixedPopulation.max_edge_falls' depends on axioms: [propext, Quot.sound]
+'FixedPopulation.boundary_repulsion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.infinity_attraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.global_no_go' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.boundary_no_go' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.sis_pair_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.interior_rates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.db_term_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.projection_ray' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.massAction_boundary_no_go' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FixedPopulation.massAction_global_no_go' depends on axioms: [propext, Classical.choice, Quot.sound]
